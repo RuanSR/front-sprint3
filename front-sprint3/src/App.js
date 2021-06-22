@@ -1,12 +1,10 @@
-import './assets/App.css'
+import './assets/styles.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Initial</h1>
-      </header>
-    </div>
+    <header className="App-header">
+      <h1>Initial</h1>
+    </header>
   );
 }
 
