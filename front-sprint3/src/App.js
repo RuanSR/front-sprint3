@@ -1,10 +1,19 @@
+
+import Header from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
+
 import './assets/styles.css'
 
 function App() {
   return (
-    <header className="App-header">
-      <h1>Initial</h1>
-    </header>
+    <div className="page-container">
+      
+      <Header/>
+      <Main/>
+      <Footer/>
+
+    </div>
   );
 }
 
