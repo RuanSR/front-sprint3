@@ -1,10 +1,11 @@
+//TODO remover react pois ja é importado
 import React, { useContext } from 'react';
 
-import MessageContext from '../../Contexts/MessageContext';
+// import MessageContext from '../../Contexts/MessageContext';
 
 const Main = () => {
 
-    const {message, setMessage} = useContext(MessageContext);
+    // const {message, setMessage} = useContext(MessageContext);
 
     return(
         <main className="main">
