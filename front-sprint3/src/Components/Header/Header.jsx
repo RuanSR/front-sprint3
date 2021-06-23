@@ -1,4 +1,6 @@
+import '../Header/style.css'
 import Menu from "../Menu/Menu";
+
 
 const Header = () => {
   return (

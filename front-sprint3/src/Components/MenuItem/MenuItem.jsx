@@ -1,3 +1,4 @@
+import '../MenuItem/style.css'
 
 const MenuItem = ({itemLabel, itemLink}) => {
   return (

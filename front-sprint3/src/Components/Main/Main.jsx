@@ -1,66 +1,15 @@
-//TODO remover react pois ja é importado
-import React, { useContext } from 'react';
-
-// import MessageContext from '../../Contexts/MessageContext';
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import Filters from "../Filters/Filters";
+import Products from "../Products/Products";
 
 const Main = () => {
-
-    // const {message, setMessage} = useContext(MessageContext);
-
-    return(
-        <main className="main">
-        <section className="main__breadcrumbs breadcrumbs">
-          <nav>
-            <ol className="breadcrumbs__list">
-              <li className="breadcrumbs__item">
-                <a className="breadcrumbs__link" href="">Home</a>
-              </li>
-              <li className="breadcrumbs__item breadcrumbs__separator">/</li>
-              <li className="breadcrumbs__item">
-                <a className="breadcrumbs__link" href="">Infantil</a>
-              </li>
-              <li className="breadcrumbs__item breadcrumbs__separator">/</li>
-              <li className="breadcrumbs__item">
-                <a className="breadcrumbs__link" href="">Personagens</a>
-              </li>
-              <li className="breadcrumbs__item breadcrumbs__separator">/</li>
-              <li className="breadcrumbs__item breadcrumbs__item--active">
-                <span className="breadcrumbs__link">Mario Bros</span>
-              </li>
-            </ol>
-          </nav>
-        </section>
-
-        <section className="main__filters filters">
-          <ul className="filters__list">
-            <li className="filters__item">
-              <span className="filters__label">Tamanho</span>
-              <img className="filters__img" src="./img/filter.svg" />
-            </li>
-            <li className="filters__item">
-              <span className="filters__label">Cor</span>
-              <img className="filters__img" src="./img/filter.svg" />
-            </li>
-            <li className="filters__item">
-              <span className="filters__label">Departamento</span>
-              <img className="filters__img" src="./img/filter.svg" />
-            </li>
-            <li className="filters__item">
-              <span className="filters__label">Categoria</span>
-              <img className="filters__img" src="./img/filter.svg" />
-            </li>
-            <li className="filters__item">
-              <span className="filters__label">Manga</span>
-              <img className="filters__img" src="./img/filter.svg" />
-            </li>
-          </ul>
-        </section>
-
-        <section className="main__products products">
-          <div className="products__row"></div>
-        </section>
-      </main>
-    );
-}
+  return (
+    <main className="main">
+      <Breadcrumbs />
+      <Filters />
+      <Products />
+    </main>
+  );
+};
 
 export default Main;

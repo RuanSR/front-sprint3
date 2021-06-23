@@ -1,3 +1,4 @@
+import "../Menu/style.css";
 import { useContext } from "react";
 
 import CategoriesContext from "../../Contexts/CategoriesContext";
@@ -5,7 +6,6 @@ import MenuItem from "../MenuItem/MenuItem";
 
 const Menu = () => {
   const { allCategories } = useContext(CategoriesContext);
-  console.log(allCategories);
 
   return (
     <nav className="header__menu menu">
