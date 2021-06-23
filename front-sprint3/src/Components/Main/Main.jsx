@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
-function Main(){
+import MessageContext from '../../Contexts/MessageContext';
+
+const Main = () => {
+
+    const {message, setMessage} = useContext(MessageContext);
 
     return(
         <main className="main">
