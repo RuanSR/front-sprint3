@@ -27,7 +27,6 @@ const Header = () => {
         <div className="header__search">
           <img className="header__icon" src="./img/search.svg" />
           <input
-            onchange="productsController.searchData(this)"
             className="header__input"
             type="search"
             placeholder="O que você está procurando?"
