@@ -7,6 +7,7 @@ import MenuItem from "../MenuItem/MenuItem";
 const Menu = () => {
   const { allCategories } = useContext(CategoriesContext);
 
+  //TODO mudar nome de nota pra item
   return (
     <nav className="header__menu menu">
       <ul className="menu__list">
