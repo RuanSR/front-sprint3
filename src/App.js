@@ -1,10 +1,6 @@
 import { useState } from "react";
 
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
-import MessageText from "./Components/Message";
-
+import {Header, Main, Footer, MessageText} from '../src/Components';
 import {MessageContext, CategoriesContext, ProductsContext} from './Contexts';
 
 function App() {
